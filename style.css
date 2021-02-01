@@ -1,0 +1,134 @@
+.header{
+	display: flex;
+	flex-direction: row;
+    align-items: baseline;
+    column-gap: 60%;
+    animation: title 8s 1; 
+}
+
+.imgs{
+    display: flex;
+	flex-direction: row;
+    align-items: baseline;
+    column-gap: 150px;
+     margin-left: 14%;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+a:link{
+	border-color: black;
+}
+
+.three{
+	font-family: 'Roboto Mono', monospace;
+	width: 300px;
+    font-size: 15px;
+    
+}
+
+.name{
+	position: relative;
+	left: 100%;
+}
+
+.smname{
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+}
+
+p{
+	font-size: 20px;
+
+}
+
+
+.img1{
+width: 275px;
+margin: none;
+opacity: 50%;
+border: solid black 2px;
+}
+
+
+.img1:hover {
+ opacity: 100%
+}
+
+.img2{
+width: 300px;
+opacity: 50%;
+border: solid black 2px;
+}
+
+
+.img2:hover {
+ opacity: 100%
+}
+
+.img3{
+width: 264px;
+border: solid black 2px;
+opacity: 50%;
+}
+
+
+
+
+.img3:hover {
+ opacity: 100%
+}
+
+@keyframes title{
+	0%{
+		opacity: 0%
+	}
+
+	100%{
+		opacity: 100%
+	}
+}
+
+html{
+	margin: 20px;
+	margin-top: 40px;
+}
+
+hr.line{
+	width: 99%;
+	border-top: 2px solid black;
+	margin-top: 20px;
+	margin-right: 45px;
+	margin-left: 5px;
+}
+
+.p1{
+	width: 286px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+}
+
+.p2{
+	width: 318px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+}
+
+.p3{
+	width: 282px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+}
+
+.title{
+font-family: 'Yantramanav', sans-serif;
+
+font-size: 60px;
+
+}
+
+.dates{
+font-family: 'Yantramanav', sans-serif;
+font-size:  30px;
+}
